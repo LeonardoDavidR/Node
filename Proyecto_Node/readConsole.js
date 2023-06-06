@@ -76,6 +76,7 @@ function preguntaThen(callback) {
 
 };
 
+
 function preguntaThen2() {
 
     pregunta("como se llama?")

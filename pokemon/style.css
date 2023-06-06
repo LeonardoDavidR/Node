@@ -1,0 +1,66 @@
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.holderLeft{
+    height: 100%;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.foto{
+    height: 30%;
+    width: 80%;
+}
+.foto img{
+    height: 100%;
+    width: 100%;
+}
+input{
+    padding: 10px 30px;
+    background:  rgba(255, 255, 255, 0.6);
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: black;
+   
+
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    background-color:rgb(238, 255, 1);
+    margin-bottom: 30px;
+}
+.holderRigth{
+    height: 100%;
+    width: 50%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://easycdn.es/1/imagenes/pokemaster_335858.png);
+}
+
+.photo{
+    height: 60%;
+    
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 60px
+}
+td{
+    font-size: xx-large;
+}
